@@ -16,9 +16,11 @@ body {
 }
 
 .heading {
-
+    font-size: 28px;
+    font-weight: bold;
 }
 
 .subheading {
-
+    font-size: 22px;
+    font-weight: 400;
 }
