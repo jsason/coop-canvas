@@ -6,6 +6,13 @@ body {
     font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+
+.logo {
+  width: 152px;
+  height: 36px;
+  border: none;
+}
+
 h2 {
   font-size: 28px;
   padding-top: 10px;
@@ -13,9 +20,12 @@ h2 {
 }
 
 img {
-  width: 500px;
-  height: 250px;
-  border: 3px;
+  border: 3px solid gray;
+  width: 50%;
+}
+
+h3 {
+  font-weight: normal;
 }
 
 /* Top Bar */
