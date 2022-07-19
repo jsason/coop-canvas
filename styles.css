@@ -4,7 +4,6 @@ body {
   font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-
 .logo {
   width: 152px;
   height: 36px;
@@ -28,9 +27,14 @@ h3 {
   font-size: 22px;
 }
 
+.indent {
+  margin-left: 30px !important;
+  
+}
+
 .sidenav {
     height: 100%; /* Full-height: remove this if you want "auto" height */
-    width: 170px; /* Set the width of the sidebar */
+    width: 190px; /* Set the width of the sidebar */
     position: fixed; /* Fixed Sidebar (stay in place on scroll) */
     z-index: 1; /* Stay on top */
     top: 0; /* Stay at the top */
@@ -59,16 +63,17 @@ h3 {
   }
   .a_sub:hover {
     color: rgb(0, 0, 0) !important; 
+    background-color: #ececec5c;
   }
 
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
-    color: rgb(117, 117, 117);
+    background-color: #ececec5c;
   }
   
   /* Style page content */
   .main {
-    margin-left: 190px; 
+    margin-left: 210px; 
     padding: 0px 10px;
   }
   
