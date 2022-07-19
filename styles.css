@@ -1,9 +1,7 @@
-/* 7/12/22 */
-
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
 body {
-    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 
@@ -15,6 +13,7 @@ body {
 
 h2 {
   font-size: 28px;
+  font-weight: 500;
   padding-top: 10px;
   padding-bottom: 5px;
 }
@@ -29,41 +28,52 @@ h3 {
   font-size: 22px;
 }
 
-/* Top Bar */
-
-.navbar {
-    position: fixed;
-    top: 0;
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 170px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
     left: 0;
-    overflow: hidden;
-    width: 100%;
-    background-color: rgb(236, 236, 236);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    background-color: rgb(255, 255, 255); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    box-shadow:0px 0px 10px 0px rgb(176, 176, 176);
   }
   
-  .navbar a {
-    font-size: 25px;
-    font-weight: bold;
-    color: black;
-    float: left;
-    text-align: center;
-    padding: 14px 16px;
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 14px;
     text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    display: block;
+  }
+
+  .a_sub {
+    padding-top: 3px !important;
+    padding-bottom: 8px !important;
+    font-size: 14px !important;
+    color: #5e5e5e !important;
+  }
+  .a_sub:hover {
+    color: rgb(0, 0, 0) !important; 
+  }
+
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: rgb(117, 117, 117);
   }
   
-  .right-side-content {
-    display: flex;
-    align-items: center;
+  /* Style page content */
+  .main {
+    margin-left: 190px; 
+    padding: 0px 10px;
   }
   
-  .navbar-brand {
-    display: inline-block;
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
-    margin-right: 1rem;
-    font-size: 1.25rem;
-    line-height: inherit;
-    white-space: nowrap;
+  /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
   }
