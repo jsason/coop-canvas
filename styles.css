@@ -28,6 +28,11 @@ h3 {
   font-size: 22px;
 }
 
+button {
+  font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+}
+
 div.indent {
   border-left: 1px solid rgb(211, 211, 211);
 }
@@ -88,22 +93,19 @@ div.indent {
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-
   .accordion {
-    background-color: #eee;
+    background-color: rgba(237, 237, 237, 0.236);
     color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
+    padding: 10px;
+    width: 75%;
+    border: 0;
+    border-bottom: 1px solid gray;;
     text-align: left;
-    outline: none;
-    font-size: 15px;
     transition: 0.4s;
   }
   
   .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: rgb(240, 240, 240);
   }
   
   .panel {
@@ -112,4 +114,16 @@ div.indent {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+  }
+
+  .accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\2212";
   }
