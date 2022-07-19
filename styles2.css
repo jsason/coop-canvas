@@ -55,12 +55,15 @@ h3 {
     padding-top: 3px !important;
     padding-bottom: 8px !important;
     font-size: 14px !important;
-    color: #434343 !important;
+    color: #5e5e5e !important;
   }
-  
+  .a_sub:hover {
+    color: rgb(0, 0, 0) !important; 
+  }
+
   /* When you mouse over the navigation links, change their color */
   .sidenav a:hover {
-    color: rgb(204, 6, 51);
+    color: rgb(117, 117, 117);
   }
   
   /* Style page content */
