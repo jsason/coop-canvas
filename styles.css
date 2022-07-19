@@ -18,8 +18,9 @@ h2 {
 }
 
 img {
-  border: 3px solid gray;
+  border: 2px solid rgb(0, 0, 0);
   width: 50%;
+  margin-left: 0px ;
 }
 
 h3 {
@@ -27,9 +28,14 @@ h3 {
   font-size: 22px;
 }
 
-.indent {
-  margin-left: 30px !important;
-  
+div.indent {
+  border-left: 1px solid rgb(211, 211, 211);
+}
+.indent p {
+  margin-left: 40px;
+}
+.indent img {
+  margin-left: 40px;
 }
 
 .sidenav {
