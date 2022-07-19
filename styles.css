@@ -16,7 +16,7 @@ h2 {
 }
 img {
   border: 2px solid rgb(0, 0, 0);
-  width: 50%;
+  width: 70%;
   margin-left: 0px ;
 }
 h3 {
@@ -115,6 +115,7 @@ div.indent {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    width: 80%;
   }
 
   .accordion:after {
