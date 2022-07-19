@@ -39,7 +39,6 @@ h3 {
     overflow-x: hidden; /* Disable horizontal scroll */
     padding-top: 20px;
     box-shadow:0px 0px 10px 0px rgb(176, 176, 176);
-    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
   
   /* The navigation menu links */
@@ -53,12 +52,10 @@ h3 {
   }
 
   .a_sub {
-    padding: 14px;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 500;
-    color: #262626;
-    display: block;
+    padding-top: 3px !important;
+    padding-bottom: 8px !important;
+    font-size: 14px !important;
+    color: #434343 !important;
   }
   
   /* When you mouse over the navigation links, change their color */
