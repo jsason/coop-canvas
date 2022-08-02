@@ -38,6 +38,7 @@ li {
 button {
   font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 20px;
+  width: 100% !important;
 }
 div.indent {
   border-left: 1px solid rgb(211, 211, 211);
@@ -120,7 +121,6 @@ div.indent {
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    width: 80%;
   }
 
   .accordion:after {
