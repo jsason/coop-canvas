@@ -36,6 +36,11 @@ a {
 li {
   padding: 5px;
 }
+button {
+  font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  width: 100% !important;
+}
 
 div.indent {
   border-left: 1px solid rgb(211, 211, 211);
@@ -152,11 +157,6 @@ div.indent {
     transition: 0.4s;
   }
 
-  .accordion button {
-    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 20px;
-    width: 100% !important;
-  }
   
   .active, .accordion:hover {
     background-color: rgb(240, 240, 240);
