@@ -1,4 +1,4 @@
-// accourdian script
+// accordion script
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -12,4 +12,14 @@ for (i = 0; i < acc.length; i++) {
       panel.style.maxHeight = panel.scrollHeight + "px";
     } 
   });
+}
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.getElementById("sidenav");
+  if (x.className === "sidenav") {
+    x.className += " responsive";
+  } else {
+    x.className = "sidenav";
+  }
 }

@@ -6,12 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panopto Video in SFU Canvas</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- hamburger icon -->
 </head>
 <body>
     <!-- Side navigation -->
-    <div class="sidenav">
+    <div class="sidenav" id="sidenav">
         <img class="logo" alt="SFU Logo" src="./images/SFU_Beedie_Logo.png" />
-        <br><br><br>
+        <br><br>
         <a href="./index.html">Introduction</a>
         <a href="./panopto_team.html">Panopto Team</a>
         <a href="./canvas_support.html">Canvas Support</a>
@@ -20,6 +21,10 @@
         <a class="a_sub" href="./canvas_support.html#create">Create Assignments</a>
         <a class="a_sub" href="./canvas_support.html#submit">Student Submission</a>
         <a href="./faq.html">Frequently Asked Questions</a>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
     </div>
     
     <!-- Page content -->
