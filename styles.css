@@ -36,11 +36,7 @@ a {
 li {
   padding: 5px;
 }
-button {
-  font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  width: 100% !important;
-}
+
 div.indent {
   border-left: 1px solid rgb(211, 211, 211);
 }
@@ -143,6 +139,7 @@ div.indent {
     margin-left: 210px; 
     padding: 0px 10px;
   }
+
   
   .accordion {
     background-color: rgba(237, 237, 237, 0.236);
@@ -153,6 +150,12 @@ div.indent {
     border-bottom: 1px solid gray;;
     text-align: left;
     transition: 0.4s;
+  }
+
+  .accordion button {
+    font-family: "Lato Extended", Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    width: 100% !important;
   }
   
   .active, .accordion:hover {
