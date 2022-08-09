@@ -17,7 +17,14 @@ h2 {
 }
 img {
   border: 2px solid rgb(0, 0, 0);
-  width: 70%;
+  width: 50%;
+  margin-left: 0px ;
+  margin-bottom: 10px;
+}
+
+.smallimg {
+  border: 2px solid rgb(0, 0, 0);
+  width: 25%;
   margin-left: 0px ;
   margin-bottom: 10px;
 }
@@ -92,10 +99,22 @@ div.indent {
 
   
 
-  /* mobile menu */
-  @media screen and (max-width: 600px) {
+  /* mobile menu + img width */
+  @media screen and (max-width: 1000px) {
     body {
       margin: 0;
+    }
+    img {
+      border: 2px solid rgb(0, 0, 0);
+      width: 70%;
+      margin-left: 0px ;
+      margin-bottom: 10px;
+    }
+    .smallimg {
+      border: 2px solid rgb(0, 0, 0);
+      width: 70%;
+      margin-left: 0px ;
+      margin-bottom: 10px;
     }
     .sidenav {
       background-color: rgb(255, 255, 255);
